@@ -2,8 +2,6 @@
 
 trait FilterPaginateUtility  {
 
-    // ?column=nik&direction=desc&per_page=2&page=1&search_column=nik&search_operator=like&search_query_1=8&search_query_2=
-
     protected $operators = [
         'equal_to'                  => '=',
         'not_equal'                 => '<>',
