@@ -1,0 +1,38 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    background-color: white;
+}
+
+.swal2-icon {
+    font-size: 18px !important;
+}
+
+// Pages
+@import 'pages/login/styles.css';
+@import 'pages/login/login-page.css';
+@import 'pages/menu/styles.css';
+@import 'pages/karyawan/styles.css';
+@import 'pages/struk/styles.css';
+@import 'pages/kasir/styles.css';
+@import 'pages/kasir/table-with-search.css';
+
+// Common
+@import 'common/button.css';
+@import 'common/footer-basic.css';
+@import 'common/navigation-with-button.css';
+@import 'common/wtg-alert.css';
+@import 'common/sweetalert/sweetalert2.min.css';
+@import 'common/bootstrap-datepicker/bootstrap-datepicker3.min.css';
+@import 'common/table-with-search.css';
+@import 'common/list-with-image-zoom.css';
+@import 'common/filterizr/product-filterizr.css';
+// @import 'common/photoswipe/default-skin.css';
+@import 'common/photoswipe/photoswipe.css';

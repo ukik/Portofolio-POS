@@ -1,0 +1,71 @@
+.input-group-text {
+  border-top-left-radius: .25rem !important;
+  border-bottom-left-radius: .25rem !important;
+}
+
+#main-content, #print-content {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #fffce27d;
+  border: 1px solid #ffa50091;
+}
+
+.auto-calculation-input, .form-control:disabled, .form-control[readonly] {
+  border: 0;
+  border-bottom-width: 1px;
+  background: #ffffff00;
+  /*border-bottom-style: inset;*/
+  text-align: right;
+  font-size: 14px;
+}
+
+#profile-transaction .input-group-text {
+  font-size: 14px;
+  text-align: left;
+  width: 150px;
+  background: #007bff;
+  color: white;
+  border-radius: 0px !important;
+}
+
+#profile-transaction .btn.btn-primary {
+  width: 50px;
+  padding: 0px;
+  border-radius: 0px;
+  border: 1px solid #dee2e6;
+}
+
+strong {
+  color: #505050;
+}
+
+#profile-transaction .form-control, #profile-transaction i {
+  font-size: 14px;
+  text-align: left;
+}
+
+#profile-transaction .form-control {
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+}
+
+input#paid-money {
+  text-align: right;
+}
+
+input#paid-money::-webkit-outer-spin-button, input#paid-money::-webkit-inner-spin-button {
+  /*-webkit-appearance: none;*/
+  /*margin: 0;*/
+}
+
+input#paid-money[type=number] {
+  /*-moz-appearance: textfield;*/
+}
+
+#paid-money {
+  width: 100%;
+  border-radius: 0;
+  padding: 0px;
+  font-size: 14px;
+}
+

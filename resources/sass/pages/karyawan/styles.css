@@ -1,0 +1,29 @@
+#main-content, #submit-content, #avatar-content {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #fffce27d;
+  border: 1px solid #ffa50091;
+}
+
+#telpon::-webkit-outer-spin-button, #telpon::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#telpon[type=number] {
+  -moz-appearance: textfield;
+}
+
+input[type="date"]::-webkit-inner-spin-button, input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+#image-preview {
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 200px;
+  min-height: 200px;
+  border: 1px solid #ced4da;
+}
+
